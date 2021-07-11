@@ -5,6 +5,8 @@ import (
 	"strings"
 )
 
+func main() {}
+
 func AppendFileToPath(path string, file string) string {
 	if len(strings.TrimSpace(path)) < 1 {
 		return file
